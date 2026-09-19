@@ -126,13 +126,14 @@ class HomePage extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    const Text(
+                    const Expanded(child: Text(
                       'اكتشف',
                       style: TextStyle(
                         fontSize: 25,
                         fontWeight: FontWeight.bold,
                       ),
-                    ),
+                    ),),
+                    
 
                     IconButton(
                       onPressed: () {},
